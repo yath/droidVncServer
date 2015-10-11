@@ -14,9 +14,8 @@ Available in nativeMethods/ folder, and precompiled libs in nativeMethods/lib/
 GUI handles user-friendly control.
 Connects to the daemon using local IPC.
 
--------------- Compile C daemon ---------------------
+-------------- Update prebuilts ---------------------
 On project folder:
-  $ ndk-build
   $ ./updateExecsAndLibs.sh
 
 -------------- Compile Wrapper libs -----------------
