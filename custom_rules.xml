@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="VNCServer-custom">
+
+<target name="rename-binaries">
+    <copy todir="${native.libs.absolute.dir}">
+        <fileset dir="${native.libs.absolute.dir}">
+            <include name="*/androidvncserver" />
+        </fileset>
+        <mapper type="regexp" from="(.*)/(.*)$$" to="\1/lib\2.so"/>
+    </copy>
+</target>
+
+<target name="-post-compile" depends="rename-binaries" />
+</project>
