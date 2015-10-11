@@ -31,9 +31,6 @@
             android:name="preferences"
             android:label="Preferences" >
         </activity>
-        <activity
-            android:name="com.google.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
 
         <service android:name=".ServerManager" >
             <intent-filter>
@@ -63,10 +60,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
     </uses-permission>
     <uses-permission android:name="android.permission.INTERNET" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.GET_TASKS" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
     </uses-permission>
     <uses-permission android:name="android.permission.WAKE_LOCK" >
     </uses-permission>

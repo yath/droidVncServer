@@ -77,12 +77,6 @@
             android:summary="Unselect this if you do not want to run the server as root."
             android:title="Execute server as root" >
         </CheckBoxPreference>
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="hidead"
-            android:summary="Select this if you don&apos;t want to view the ad."
-            android:title="Disable Bottom Ad" >
-        </CheckBoxPreference>
     </PreferenceCategory>
 
 </PreferenceScreen>
